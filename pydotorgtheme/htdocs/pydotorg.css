@@ -24,29 +24,31 @@ h1, h2, h3, h4, h5 {
   font-weight: normal;
 
 }
-
+*/
 h1 {
   color: #234764;
-  font-size: 162%;
+  font-size: 140%;
   text-decoration: none;
 }
 
 h2 {
   color: #366d9c;
-  font-size: 140%;
+  font-size: 125%;
 }
 
 h3 {
   color: #366d9c;
-  font-size: 135%;
+  font-size: 115%;
   font-style: italic;
 }
 
 h4 {
   color: #366d9c;
   font-size: 125%;
+  letter-spacing: 0 !important;
+  margin-top: 0.4em;
+  margin-bottom: 0.1em;
 }
-*/
 #banner {
   background: url(header-bg2.png);
   background-color: #f7f7f7;
@@ -323,9 +325,19 @@ input[type=button], input[type=submit], input[type=reset], .trac-button{
 
 fieldset {
   border-radius: 0 !important;
+  box-shadow: none !important;
 }
 
 #changelog {
   padding: 1em;
   border: 1px solid #dddddd;
+}
+
+#prefs {
+  border-radius: 0 !important;
+}
+
+#tabs, #tabs li li.active {
+  box-shadow: none !important;
+  border-radius: 0 !important;
 }
