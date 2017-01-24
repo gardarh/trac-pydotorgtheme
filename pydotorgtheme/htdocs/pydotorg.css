@@ -39,7 +39,6 @@ h2 {
 h3 {
   color: #366d9c;
   font-size: 115%;
-  font-style: italic;
 }
 
 h4 {
@@ -326,6 +325,7 @@ input[type=button], input[type=submit], input[type=reset], .trac-button{
 fieldset {
   border-radius: 0 !important;
   box-shadow: none !important;
+  background-color: #ffffff;
 }
 
 #changelog {
@@ -340,4 +340,8 @@ fieldset {
 #tabs, #tabs li li.active {
   box-shadow: none !important;
   border-radius: 0 !important;
+}
+
+.foldable :link, .foldable :visited {
+  box-shadow: none !important;
 }
