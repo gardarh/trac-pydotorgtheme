@@ -346,3 +346,8 @@ fieldset {
 .foldable :link, .foldable :visited {
   box-shadow: none !important;
 }
+
+div.system-message {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
