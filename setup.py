@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name = 'TracPyDotOrgTheme',
-    version = '3.0',
+    version = '3.0.1',
     packages = ['pydotorgtheme'],
     package_data = { 'pydotorgtheme': ['htdocs/*.css', 'htdocs/*.png'] },
     author = "Jeroen Ruigrok van der Werven",

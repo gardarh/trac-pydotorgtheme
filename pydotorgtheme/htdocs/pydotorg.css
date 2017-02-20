@@ -11,20 +11,16 @@ html, body {
 body :link, body :link:hover, body :visited, :link {
   /*background: transparent no-repeat;*/
   /*border-bottom: 1px dashed #cccccc !important;*/
-  color: #0000aa !important;
+  color: #0000aa;
   border-radius: 0 !important;
 }
 
 img {
   border: 0;
 }
-/*
-h1, h2, h3, h4, h5 {
-  font-family: Georgia, "Bitstream Vera Serif", "New York", Palatino, serif;
-  font-weight: normal;
-
+body h1, body h2, body h3, body h4, body h5 {
+    letter-spacing: normal;
 }
-*/
 h1 {
   color: #234764;
   font-size: 140%;
