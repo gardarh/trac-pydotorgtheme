@@ -37,12 +37,13 @@ h3 {
   font-size: 115%;
 }
 
-h4 {
+body h4 {
   color: #366d9c;
   font-size: 125%;
-  letter-spacing: 0 !important;
+  letter-spacing: normal !important;
   margin-top: 0.4em;
   margin-bottom: 0.1em;
+  font-weight: normal;
 }
 #banner {
   background: url(header-bg2.png);
@@ -185,11 +186,17 @@ div.system-message {
     margin-right: 10px;
 }
 
+body #ctxtnav {
+  margin-left: 13em;
+  padding: 0.1em;
+  min-height: 0;
+}
+
 #content {
   font-family: Arial, Verdana, Geneva, "Bitstream Vera Sans", Helvetica, sans-serif;
   left: 0;
   line-height: 1.2em;
-  margin-left: 16.5em;
+  margin-left: 13em;
   margin-right: 10px;
   padding: 0;
   z-index: 0;
